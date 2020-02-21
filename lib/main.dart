@@ -51,10 +51,11 @@ class _MyHomePageState extends State<MyHomePage> {
               ),
               textAlign: TextAlign.center,
             ),
-            Text(
-              '$_counter',
-              style: Theme.of(context).textTheme.headline4,
-            ),
+            Text('$_counter',
+                style: TextStyle(
+                  color: Colors.pink[900],
+                  fontSize: 50,
+                )),
           ],
         ),
       ),
